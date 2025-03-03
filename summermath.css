@@ -1,0 +1,792 @@
+body {
+    background-color: #F3F3F3; /* 원하는 컬러 코드로 변경 */
+  }
+
+.frame {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px 24px;
+    padding: 61px 21px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+    width: 100%;         /* 컨테이너 너비 전부 차지 */
+    margin: 0;           /* 불필요한 외부 여백 제거 */
+  }
+  
+  .frame .component {
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .frame .div {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .ellipse {
+    position: relative;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 123px;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Pretendard-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: normal;
+  }
+  
+  .frame .p {
+    position: relative;
+    align-self: stretch;
+    font-family: "Pretendard-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: normal;
+  }
+  
+  .frame .frame-wrapper {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 504px;
+  }
+  
+  .frame .div-3 {
+    position: relative;
+    width: 358px;
+    height: 504px;
+    background-color: #f5f5f5;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 326px;
+    top: 15px;
+    left: 16px;
+    font-family: "Pretendard-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+  }
+  
+  .frame .component-2 {
+    display: inline-flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    padding: 15px 16px;
+    position: absolute;
+    top: 96px;
+    left: 16px;
+  }
+  
+  .frame .rectangle {
+    position: absolute;
+    width: 326px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .frame .div-4 {
+    display: flex;
+    flex-direction: column;
+    width: 132px;
+    height: 89px;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .frame .div-wrapper {
+    display: flex;
+    width: 48px;
+    height: 14px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px 9px;
+    position: relative;
+    background-color: #d9d9d9;
+    border-radius: 4px;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -4.00px;
+    margin-bottom: -2.00px;
+    font-family: "Pretendard-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 6px;
+    letter-spacing: -0.12px;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .frame .div-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-4 {
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    position: relative;
+    font-family: "Pretendard-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  .frame .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Pretendard-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: -0.20px;
+    line-height: 16px;
+  }
+  
+  .frame .text-wrapper-6 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Pretendard-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 8px;
+    letter-spacing: -0.16px;
+    line-height: 16px;
+  }
+  
+  .frame .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Pretendard-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: -0.20px;
+    line-height: 16px;
+  }
+  
+  .frame .div-6 {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    align-items: flex-end;
+    gap: 43px;
+    position: relative;
+  }
+  
+  .frame .div-7 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-wrapper-2 {
+    display: flex;
+    width: 58px;
+    height: 14px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px 9px;
+    position: relative;
+    background-color: #d3e7f4;
+    border-radius: 4px;
+  }
+  
+  .frame .component-3 {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 6px 11px;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .frame .div-8 {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    border-radius: 4px;
+  }
+  
+  .frame .div-9 {
+    display: flex;
+    height: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .frame .vector {
+    position: relative;
+    width: 15px;
+    height: 11.82px;
+  }
+  
+  .frame .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Pretendard-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 9px;
+    letter-spacing: -0.18px;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .frame .component-4 {
+    display: inline-flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    padding: 15px 16px;
+    position: absolute;
+    top: 232px;
+    left: 16px;
+  }
+  
+  .frame .component-5 {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 6px 11px;
+    position: relative;
+  }
+  
+  .frame .component-6 {
+    display: inline-flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    padding: 15px 16px;
+    position: absolute;
+    top: 368px;
+    left: 16px;
+  }
+  
+  .frame .component-7 {
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    align-items: flex-start;
+    gap: 13px;
+    position: relative;
+  }
+  
+  .frame .div-10 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .overlap-group-wrapper {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 25px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    top: 1px;
+    left: 1px;
+    background-color: #ffffff;
+    border-radius: 24px;
+  }
+  
+  .frame .img {
+    position: absolute;
+    width: 39px;
+    height: 25px;
+    top: 13px;
+    left: 3px;
+  }
+  
+  .frame .component-8 {
+    position: absolute;
+    width: 326px;
+    height: 140px;
+    top: 124px;
+    left: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .frame .overlap-group-2 {
+    height: 28px;
+    top: 0;
+    left: 0;
+    background-color: #b8cedd;
+    border-radius: 8px 8px 0px 0px;
+    position: absolute;
+    width: 326px;
+  }
+  
+  .frame .text-wrapper-9 {
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    font-family: "Pretendard-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .frame .overlap {
+    position: absolute;
+    width: 281px;
+    height: 24px;
+    top: 43px;
+    left: 18px;
+  }
+  
+  .frame .div-11 {
+    display: flex;
+    width: 281px;
+    height: 24px;
+    align-items: center;
+    gap: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .div-12 {
+    display: flex;
+    flex-direction: column;
+    width: 21px;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .frame .ellipse-2 {
+    position: relative;
+    width: 4px;
+    height: 4px;
+    background-color: #000000;
+    border-radius: 2px;
+  }
+  
+  .frame .text-wrapper-10 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Pretendard-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 16px;
+  }
+  
+  .frame .vector-2 {
+    position: absolute;
+    width: 260px;
+    height: 1px;
+    top: 2px;
+    left: 11px;
+  }
+  
+  .frame .frame-wrapper-2 {
+    display: inline-flex;
+    height: 14px;
+    align-items: flex-start;
+    position: absolute;
+    top: 107px;
+    left: 11px;
+  }
+  
+  .frame .div-wrapper-3 {
+    display: inline-flex;
+    height: 14px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px 9px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #d9d9d9;
+    border-radius: 4px;
+  }
+  
+  .frame .frame-wrapper-3 {
+    display: inline-flex;
+    height: 14px;
+    align-items: flex-start;
+    position: absolute;
+    top: 67px;
+    left: 1px;
+  }
+  
+  .frame .div-wrapper-4 {
+    display: inline-flex;
+    height: 14px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px 9px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #d3e7f4;
+    border-radius: 4px;
+  }
+  
+  .frame .frame-wrapper-4 {
+    display: inline-flex;
+    height: 14px;
+    align-items: flex-start;
+    position: absolute;
+    top: 67px;
+    left: 128px;
+  }
+  
+  .frame .frame-wrapper-5 {
+    display: inline-flex;
+    height: 14px;
+    align-items: flex-start;
+    position: absolute;
+    top: 87px;
+    left: 139px;
+  }
+  
+  .frame .frame-wrapper-6 {
+    display: inline-flex;
+    height: 14px;
+    align-items: flex-start;
+    position: absolute;
+    top: 67px;
+    left: 202px;
+  }
+  
+  .frame .frame-wrapper-7 {
+    display: inline-flex;
+    height: 14px;
+    align-items: flex-start;
+    position: absolute;
+    top: 67px;
+    left: 267px;
+  }
+  
+  .frame .frame-wrapper-8 {
+    display: inline-flex;
+    height: 14px;
+    align-items: flex-start;
+    position: absolute;
+    top: 87px;
+    left: 262px;
+  }
+  
+  .frame .div-13 {
+    width: fit-content;
+    margin-top: -2.00px;
+    font-size: 6px;
+    text-align: center;
+    letter-spacing: -0.12px;
+    line-height: 6px;
+    position: relative;
+    font-family: "Pretendard-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  .frame .span {
+    letter-spacing: -0.01px;
+    line-height: 8px;
+  }
+  
+  .frame .text-wrapper-11 {
+    font-size: 3px;
+    letter-spacing: 0;
+    line-height: 4px;
+  }
+  
+  .frame .frame-wrapper-9 {
+    display: inline-flex;
+    height: 14px;
+    align-items: flex-start;
+    position: absolute;
+    top: 87px;
+    left: 82px;
+  }
+  
+  .frame .overlap-2 {
+    height: 140px;
+    top: 280px;
+    left: 16px;
+    border-radius: 8px;
+    position: absolute;
+    width: 326px;
+  }
+  
+  .frame .component-9 {
+    position: absolute;
+    width: 326px;
+    height: 140px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .frame .frame-wrapper-10 {
+    display: inline-flex;
+    height: 14px;
+    align-items: flex-start;
+    position: absolute;
+    top: 67px;
+    left: 4px;
+  }
+  
+  .frame .frame-wrapper-11 {
+    height: 14px;
+    top: 67px;
+    left: 210px;
+    display: inline-flex;
+    align-items: flex-start;
+    position: absolute;
+  }
+  
+  .frame .frame-wrapper-12 {
+    top: 98px;
+    left: 204px;
+    display: inline-flex;
+    align-items: flex-start;
+    position: absolute;
+  }
+  
+  .frame .overlap-3 {
+    height: 44px;
+    top: 444px;
+    left: 16px;
+    position: absolute;
+    width: 326px;
+  }
+  
+  .frame .vector-3 {
+    position: absolute;
+    width: 15px;
+    height: 12px;
+    top: 0;
+    left: 42px;
+  }
+  
+  .frame .component-10 {
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 6px 11px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+  }
+  
+  .frame .div-14 {
+    position: absolute;
+    width: 326px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    border-radius: 4px;
+  }
+  
+  .frame .div-15 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+
+
+/* 반응형 레이아웃 설정 */
+@media (max-width: 768px) {
+    .frame-66 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .component-11, .frame-67 {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+.main-container {
+    /* 수직 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* 가로 중앙 정렬 */
+    justify-content: flex-start; /* 세로는 위에서부터 쌓기 (원하면 center로 변경) */
+  
+    /* 크기 & 위치 */
+    width: 100%;
+    max-width: 938px;        /* 최대 폭 제한 (원하는 수치로 변경) */
+    margin: auto auto;         /* 상단/하단에 40px 정도 여백 두고, 좌우는 auto로 중앙 배치 */
+    padding: 0;
+    box-sizing: border-box;
+  
+    /* 둥근 모서리 & 흰색 배경 */
+    background-color: #ffffff; 
+    border-radius: 16px;       
+    overflow: hidden;          /* 둥근 모서리 밖을 잘라내기 */
+    
+    /* 카드 느낌의 그림자 (선택) */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+/* Frame 62 - 상단 배너 */
+.frame-62 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 22px 19px;
+    gap: 10px;
+    width: 100%;
+    height: 71px;
+    background: #B8CEDD;
+    border-radius: 16px 16px 0px 0px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* 로고 텍스트 정렬 */
+.logo-container {
+    display: flex;
+    align-items: baseline; 
+    gap: 5px;
+}
+
+.logo-text {
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #0D0D0D;
+    margin: 0;
+}
+
+.math-text {
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #0D0D0D;
+}
+
+.tm-text {
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 8px;
+    letter-spacing: 0.05em;
+    color: #0D0D0D;
+    align-self: flex-start;
+}
+
+
+/* 아이콘을 오른쪽으로 밀기 위한 컨테이너 */
+.icons-container {
+    margin-left: auto;        /* 로고 다음 빈 공간을 밀어내어 오른쪽 정렬 */
+    display: flex;
+    align-items: center;
+    gap: 12px;                /* 아이콘 사이 간격 */
+  }
+  
+  /* 공통 아이콘 스타일 (원형 + 흰 글자) */
+  .talk-icon-img, .blog-icon-img {
+    width: 100px;
+    height: 1000px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
